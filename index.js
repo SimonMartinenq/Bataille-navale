@@ -234,7 +234,7 @@ class Game {
         // console.log('Coulé !');
         alert('Coulé !');
       } else {
-        alert('Touché !');
+        // alert('Touché !');
       }
     } else {
       cellElement.classList.add('miss');
@@ -272,7 +272,7 @@ class Game {
         this.computerMoove();
         messageElement.innerHTML = "";
         computerGrid.classList.remove('computer-grid-disabled');
-      }, 2000);
+      }, 1000);
     } else {
       messageElement.innerHTML = "À toi de jouer";
     }
